@@ -1965,7 +1965,7 @@ h3 a{
 }
 
 .bg-color-1{
-  background: #f2f8ff;
+background-color: #f2f2f2;  
 }
 
 .bg-color-2{
@@ -1999,6 +1999,7 @@ h3 a{
   position: relative;
   display: block;
   background: #fff;
+  margin: 10px 0px;
   transition: all 500ms ease;
 }
 
@@ -2012,6 +2013,7 @@ h3 a{
 .service-block-one .image-box img{
   width: 100%;
   transition: all 500ms ease;
+  border-radius: 7px;
 }
 
 .service-block-one:hover .image-box img{
@@ -2023,6 +2025,7 @@ h3 a{
   position: relative;
   padding: 30px 30px 33px 30px;
   border-top: 2px solid #2e3192;
+  background-color: #e3e7ea;
 }
 
 .service-block-one .lower-content h3{
@@ -6702,7 +6705,7 @@ h4 a{
 }
 
 .service-style-four.service-page{
-  padding: 120px 0px 40px 0px;
+  padding: 60px 0px 40px 0px;
 }
 
 .service-style-four.service-page .service-block-four{
@@ -7032,7 +7035,7 @@ h4 a{
 
 .research-details{
   position: relative;
-  padding: 120px 0px;
+  padding: 70px 0px 40px;
 }
 
 .research-details-content .upper-box .image-box{
@@ -7089,10 +7092,13 @@ h4 a{
   position: relative;
   display: block;
   margin-top: 5px;
+  padding: 0px 30px;
 }
 
 .research-details-content .two-column .image-box img{
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 15px;
 }
 
 .research-details-content .two-column .text .single-item{
@@ -7107,6 +7113,7 @@ h4 a{
 
 .research-details-content .two-column .text .single-item h3{
   margin-bottom: 11px;
+  color: #2e3192;
 }
 
 .research-details-content .two-column{
@@ -8326,4 +8333,22 @@ position: relative;
   .social-links li .instagram:hover i {
     color: #d6249f;
   }
- 
+ .research-details-content p {
+  text-align: justify;
+  margin-bottom: 10px;
+ }
+
+ .single-item ul li {
+  list-style-type: disc;
+ }
+ .single-item ol li {
+  list-style-type: decimal;
+ }
+ .single-item ul {
+  margin-bottom: 10px;
+  margin-left: 20px;
+ }
+ .single-item ol {
+  margin-bottom: 10px;
+  margin-left: 20px;
+ }

@@ -660,8 +660,21 @@
   }
 
   .page-title{
-    padding-top: 150px;
+    padding-top: 120px;
   }
+  .page-title .content-box {
+    padding: 0px;
+  }
+  .research-details {
+    position: relative;
+    padding: 50px 0px 40px;
+}
+.research-details-content .two-column .image-box {
+  position: relative;
+  display: block;
+  margin-top: 5px;
+  padding: 0px;
+}
 
   .service-style-four.service-page .service-block:last-child .service-block-four{
     margin-bottom: 0px;
