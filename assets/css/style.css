@@ -541,7 +541,7 @@ img {
 }
 
 .preloader .boxes .box > div{
-  --background: #01aef0;
+  --background: #007bff;
   --top: auto;
   --right: auto;
   --bottom: auto;
@@ -946,8 +946,8 @@ img {
   display:none;
   opacity: 0;
   visibility: hidden;
-  padding: 20px 0px;
-  background-color: #333;
+  /* padding: 10px 0px; */
+  background-color: rgb(249, 250, 251);
   -moz-transform: translateY(30px);
   -webkit-transform: translateY(30px);
   -ms-transform: translateY(30px);
@@ -966,6 +966,7 @@ img {
   -ms-transition:all 500ms ease;
   -o-transition:all 500ms ease;
   transition:all 500ms ease;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .main-menu .navigation > li > ul.from-right{
@@ -976,7 +977,7 @@ img {
 .main-menu .navigation > li > ul > li{
   position:relative;
   width:100%;
-  padding: 0px 30px;
+  padding: 0px;
 }
 
 .main-menu .navigation > li > ul > li:last-child{
@@ -986,14 +987,15 @@ img {
 .main-menu .navigation > li > ul > li > a{
   position:relative;
   display:block;
-  padding:6px 0px;
+  padding: 15px 20px;
   line-height:24px;
-  font-weight:400;
+  font-weight:600;
   font-family: 'Open Sans', sans-serif;
-  font-size:15px;
+  font-size:16px;
   text-transform:capitalize;
-  color:#fff;
+  color: #2e3192;
   text-align: left;
+  border-bottom: 1px solid;
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
   -webkit-transition:all 500ms ease;
@@ -1010,7 +1012,7 @@ img {
   content: "\f105";
   position:absolute;
   right:20px;
-  top:6px;
+  top:10px;
   display:block;
   line-height:24px;
   font-size:16px;
@@ -1026,8 +1028,10 @@ img {
   width:230px;
   z-index:100;
   display:none;
-  padding: 20px 0px;
-  background-color: #333;
+  margin-left: 3px;
+  /* padding: 10px 0px; */
+  background-color: rgb(249, 250, 251);
+
   -moz-transform: translateY(30px);
   -webkit-transform: translateY(30px);
   -ms-transform: translateY(30px);
@@ -1061,14 +1065,15 @@ img {
 .main-menu .navigation > li > ul > li > ul > li > a{
   position:relative;
   display:block;
-  font-size: 15px;
-  padding:6px 20px;
+  padding: 15px 20px;
   line-height:24px;
-  font-weight:400;
-  font-size:15px;
+  font-weight:600;
   font-family: 'Open Sans', sans-serif;
+  font-size:16px;
   text-transform:capitalize;
-  color:#fff;
+  color: #2e3192;
+  border-bottom: 1px solid;
+
   text-align: left;
   transition:all 500ms ease;
   -moz-transition:all 500ms ease;
@@ -1871,7 +1876,7 @@ h3 a{
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background: #01aef0;
+  background: #007bff;
   border-radius: 50%;
   text-align: center;
   transition: all 500ms ease;
@@ -2416,7 +2421,7 @@ background-color: #f2f2f2;
 .testimonial-section{
   position: relative;
   padding: 60px 0px;
-  background-color: #01aef0;
+  background-color: #007bff;
   color: white;
 }
 .testimonial-section h2 {
@@ -2822,7 +2827,7 @@ background-color: #f2f2f2;
 
 .main-footer .footer-top .widget-section .logo-widget .text{
   position: relative;
-  margin-bottom: 37px;
+  margin-bottom: 30px;
 }
 
 .main-footer .footer-top .widget-section .logo-widget .social-inner h3{
@@ -2958,7 +2963,7 @@ background-color: #f2f2f2;
 .main-footer .footer-bottom{
   position: relative;
   display: block;
-  background: #009BCB;
+  background: #007bff;
   border-top: 2px solid rgb(191, 203, 219);
   padding: 10px 0px;
 }
@@ -4503,7 +4508,7 @@ h4 a{
 .intro-style-three .inner-container .single-item .inner-box{
   position: relative;
   display: block;
-  background: #01aef0;
+  background: #007bff;
   text-align: center;
   padding: 50px;
   border-radius: 8px;
@@ -4544,7 +4549,7 @@ h4 a{
 }
 
 .intro-style-three .inner-container .single-column:last-child .single-item .inner-box{
-  background: #01aef0;;
+  background: #007bff;;
 }
 
 .intro-style-three .inner-container{
@@ -6624,7 +6629,7 @@ h4 a{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .page-title::before {
@@ -8228,7 +8233,7 @@ position: relative;
   position: absolute;
   left: 0px;
   top: 3px;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 40px;
   color: #ffffff;
   }
@@ -8269,7 +8274,7 @@ position: relative;
       
     }
     .main-footer .theme-btn {
-    color: #01aef0 !important;  
+    color: #007bff !important;  
     }
    
   .vision-card {
@@ -8377,4 +8382,7 @@ position: relative;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
+}
+.links-widget {
+  margin-left: 30px;
 }
