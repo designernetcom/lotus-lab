@@ -8386,3 +8386,46 @@ position: relative;
 .links-widget {
   margin-left: 30px;
 }
+.scope-section {
+  padding: 60px 0px;
+}
+.scope-image img {
+  padding: 0px 150px;
+}
+.testing-parameters {
+  padding: 0px 0px 60px;
+}
+.testing-parameters h4 {
+  text-align: center;
+  font-size: 22px;
+  margin: 40px 0px 15px;
+  text-decoration: underline;
+}
+.testing-parameters h5{
+  color: #000;
+  font-size: 20px;
+}
+thead {
+  border: 1px solid #2e3192 !important;
+}
+th{
+  border: 1px solid #2e3192 !important;
+}
+td{
+  border: 1px solid #2e3192 !important;
+}
+.test-parameter-list li {
+  border-bottom: 1px solid #2e3192 !important;
+  
+  padding:  7px 10px;
+  background-color: rgb(241, 241, 241);
+  
+}
+
+.test-parameter-list li:nth-child(odd) { background-color: rgb(145, 219, 236); }
+.test-main {
+  padding: 0px !important;
+}
+.test-tile {
+  text-align: center;
+}
