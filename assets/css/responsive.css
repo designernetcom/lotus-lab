@@ -167,9 +167,7 @@
 
 
 @media only screen and (max-width: 991px){
-  .scope-image img {
-    padding: 0px 80px;
-  }
+ 
   .img-home2 {
     display: none !important;
   }
@@ -455,8 +453,14 @@
 
 
 @media only screen and (max-width: 767px){
+  .contact-section .single-info-box {
+    margin-bottom: 20px;
+  }
   .scope-image img {
-    padding: 0px;
+    padding: 0px 10px;
+  }
+  .scope-image {
+    margin-bottom: 30px;
   }
   .copyright {
     display: flex;
